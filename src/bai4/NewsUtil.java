@@ -1,6 +1,6 @@
-package news;
+package bai4;
 
-import news.impl.News;
+import bai4.impl.News;
 
 import java.util.ArrayList;
 import java.util.List;

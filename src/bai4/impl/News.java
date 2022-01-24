@@ -1,6 +1,6 @@
-package news.impl;
+package bai4.impl;
 
-import news.INews;
+import bai4.INews;
 
 public class News implements INews {
     private int id;

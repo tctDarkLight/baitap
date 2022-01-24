@@ -1,7 +1,4 @@
-import bai1.GiaiPTB2;
-import bai2.TienDien;
-import bai3.Square;
-import news.NewsUtil;
+import bai4.NewsUtil;
 
 public class BaiTap {
 
