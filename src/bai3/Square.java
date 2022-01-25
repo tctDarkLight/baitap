@@ -16,14 +16,14 @@ public class Square {
         this.side = side;
     }
 
-    public void input(){
-        do{
+    public void input() {
+        do {
             System.out.println("Nhập vào độ dài cạnh hình vuông: ");
             side = scanner.nextFloat();
-            if(side <= 0){
+            if (side <= 0) {
                 System.out.println("Độ dài cạnh vừa nhập không hợp lệ!");
             }
-        }while (side <= 0);
+        } while (side <= 0);
     }
 
     public void showSide(){
@@ -38,7 +38,7 @@ public class Square {
         System.out.println("Diện tích hình vuông là: " + side * side);
     }
 
-    public void info(){
+    public void info() {
         System.out.println("--------------------");
         System.out.println("Thông tin của hình vuông: ");
         this.showSide();

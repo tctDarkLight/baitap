@@ -12,7 +12,7 @@ public class NewsUtil {
     private final List<News> newsList = new ArrayList<>();
     public void menu(){
         int select;
-        do{
+        do {
             System.out.println("==============MENU==============");
             System.out.println("1. Insert news");
             System.out.println("2. Views list news");
@@ -22,7 +22,7 @@ public class NewsUtil {
             System.out.println("Mời chọn : ");
             select = Integer.parseInt(scanner.nextLine());
 
-            switch (select){
+            switch (select) {
                 case 1:
                     News news1 = new News();
                     System.out.println("Nhập vào tiêu đề(title): ");
@@ -54,6 +54,6 @@ public class NewsUtil {
                     System.out.println("Cảm ơn bạn đã sử dụng chương trình");
                     break;
             }
-        }while (select != 4);
+        } while (select != 4);
     }
 }
